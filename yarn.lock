@@ -2080,6 +2080,7 @@ __metadata:
     "@types/node": "npm:^25.2.0"
     lucide-preact: "npm:^0.563.0"
     preact: "npm:^10.28.3"
+    simple-icons: "npm:^16.7.0"
     tailwindcss: "npm:^4.1.18"
     typescript: "npm:~5.9.3"
     vite: "npm:^7.3.1"
@@ -2093,6 +2094,13 @@ __metadata:
   dependencies:
     kolorist: "npm:^1.6.0"
   checksum: 10c0/f74332d839689b30deddc079f52845c05e455160888c2076056dd070d0088b8e84a0f36b6d273d38a8698e738dc5f34bbe6ecdcc86146b9d4250c67374f975c5
+  languageName: node
+  linkType: hard
+
+"simple-icons@npm:^16.7.0":
+  version: 16.7.0
+  resolution: "simple-icons@npm:16.7.0"
+  checksum: 10c0/b5695a5e2035d0dbda7dddd3486f4e2b5e745841b6982e60dd10b0bad4dd5f5c568c1558c8b4a6b01429be3f3864bd022a4a946456c658443ac0ac120cc2b684
   languageName: node
   linkType: hard
 
