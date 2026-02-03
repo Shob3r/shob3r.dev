@@ -6,7 +6,7 @@ export default function Projects() {
 			name: 'Audio Replacer',
 			tags: ['Svelte', 'Tauri'],
 			description:
-				'Audio Replacer is a multiplatform application aimed to streamline audio dubbing projects for video games (i.e. Game translation mods) by offering a simple UI and powerful features, such as custom FFMpeg pitch/effect filters & built-in Audio Transcription. This project will be used in a future project of mine',
+				'Audio Replacer is an application aimed to streamline audio dubbing projects for video games (i.e. Dub mods), with features that are extremely useful for this task. This was developed for use in a future project of mine',
 			imgLink: '',
 			projectLink: 'https://github.com/lemons-studios/audio-replacer',
 		},
@@ -14,7 +14,7 @@ export default function Projects() {
 			name: 'Yoohoo!',
 			tags: ['Preact', 'Tauri', 'Linux', 'WIP'],
 			description:
-				'Yoohoo! is a universal Hoyoverse game launcher for Linux-based platforms, aiming to both unify and replace the launchers created by an-anime-team',
+				"Yoohoo! is a universal Hoyoverse game launcher for Linux-based platforms, aiming to both unify and replace the launchers created by an-anime-team. Currently WIP. I will be distributing Yoohoo on Flathub when it's ready",
 			imgLink: '',
 			projectLink: 'https://github.com/Shob3r/yoohoo',
 		},
@@ -30,7 +30,7 @@ export default function Projects() {
 			name: 'Adrift In Teyvat',
 			tags: ['React', 'Game', 'WIP'],
 			description:
-				'Adrift in Teyvat is a WIP game adapting the Geoguessr formula to open-world game "Genshin Impact"',
+				'Adrift in Teyvat is a (very) WIP game adapting the Geoguessr formula to open-world game "Genshin Impact"',
 			imgLink: '',
 			projectLink: 'https://github.com/adrift-in-teyvat/',
 		},
@@ -47,7 +47,7 @@ export default function Projects() {
 	return (
 		<div class="mt-10 flex flex-col items-center justify-center gap-y-2">
 			<h1 class="ubuntu-mono-bold text-center text-4xl">Projects</h1>
-			<div class="w-2/3 text-center flex flex-col gap-y-1.5 mb-10">
+			<div class="w-2/3 text-center flex flex-col gap-y-0 mb-3">
 				<p>Here is a list of all projects I've worked on so far!</p>
 				<p>
 					I am still faily new at serious projects, so there may not be that

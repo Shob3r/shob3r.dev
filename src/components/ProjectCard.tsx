@@ -216,7 +216,7 @@ export default function ProjectCard({
 					<div class="flex flex-row gap-x-2">
 						{tags.map((name) => {
 							return (
-								<div class="border-surface-1 bg-accent border px-1 py-0.5 rounded-sm min-w-15 text-center flex flex-row items-center justify-center gap-x-2">
+								<div class="border-surface-1 bg-accent border px-1 py-0.5 rounded-sm min-w-20 text-center flex flex-row items-center justify-center gap-x-2">
 									<span class="h-5 w-5">{tagIconResolver(name)}</span>
 									<p class="invert-100 mt-0.5">{name}</p>
 								</div>
