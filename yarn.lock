@@ -2070,9 +2070,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"shob3r.io@workspace:.":
+"shob3r.dev@workspace:.":
   version: 0.0.0-use.local
-  resolution: "shob3r.io@workspace:."
+  resolution: "shob3r.dev@workspace:."
   dependencies:
     "@preact/preset-vite": "npm:^2.10.3"
     "@tailwindcss/typography": "npm:^0.5.19"
