@@ -24,13 +24,13 @@ export function App() {
 
 	return (
 		<>
-			<div class="bg-crust flex h-screen w-screen justify-center px-4 py-6 text-text">
-				<div class="border-surface w-55/100 flex h-auto flex-col rounded-md border bg-transparent">
+			<div class="bg-crust text-text flex h-screen w-screen justify-center px-4 py-6">
+				<div class="border-surface lg:w-55/100 flex h-auto flex-col rounded-md border bg-transparent sm:w-4/5 md:w-3/4">
 					<div class="border-b-surface flex flex-row items-center justify-around gap-x-2 border-b p-2">
 						{links.map((link) => {
 							return (
 								<div
-									class={`min-w-40 rounded-xs cursor-pointer px-3 ${location === link.path ? 'underline' : ''}`}
+									class={`rounded-xs cursor-pointer px-3 ${location === link.path ? 'underline' : ''}`}
 									onClick={() => {
 										navigate(link.path);
 									}}
@@ -40,7 +40,7 @@ export function App() {
 							);
 						})}
 					</div>
-					<div class="overflow-y-scroll px-3 py-2 h-full">
+					<div class="h-full overflow-y-scroll px-3 py-2">
 						<Switch>
 							<Route path="/">
 								<Home />

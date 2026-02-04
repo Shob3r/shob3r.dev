@@ -45,9 +45,9 @@ export default function Projects() {
 	];
 
 	return (
-		<div class="mt-10 flex flex-col items-center justify-center gap-y-2">
+		<div class="mt-10 flex w-full flex-col items-center justify-center gap-y-2">
 			<h1 class="ubuntu-mono-bold text-center text-4xl">Projects</h1>
-			<div class="w-2/3 text-center flex flex-col gap-y-0 mb-3">
+			<div class="mb-3 flex w-2/3 flex-col gap-y-0 text-center">
 				<p>Here is a list of all projects I've worked on so far!</p>
 				<p>
 					I am still faily new at serious projects, so there may not be that
@@ -55,7 +55,7 @@ export default function Projects() {
 				</p>
 			</div>
 
-			<div class="flex flex-col gap-y-5">
+			<div class="flex flex-col items-center justify-center gap-y-5">
 				{projects.map((project) => {
 					return (
 						<ProjectCard
