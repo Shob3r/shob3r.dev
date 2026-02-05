@@ -18,7 +18,6 @@ import {
 	Construction,
 	Gamepad2,
 	Globe,
-	Globe2,
 	type LucideIcon,
 } from 'lucide-preact';
 
@@ -71,10 +70,15 @@ export default function ProjectCard({
 
 	return (
 		<div
-			class="h-9/10 md:w-9/10 md:h-50 flex w-auto shrink-0 cursor-pointer flex-col items-center justify-center gap-x-5 rounded-sm border border-gray-600 bg-transparent p-3 md:flex-row md:gap-y-5"
+			class="h-9/10 md:w-9/10 md:h-50 flex w-auto shrink-0 cursor-pointer items-center-safe flex-col gap-x-5 rounded-sm border border-gray-600 bg-transparent p-3 md:flex-row md:gap-y-5"
 			onClick={() => window.open(projectLink, '_blank')}
 		>
-			<img class="rounded-2xl" src={imgLink} width={250} height={200}></img>
+			<img
+				class="rounded-2xl shrink-0 w-37.5"
+				src={imgLink}
+				width={250}
+				height={200}
+			></img>
 			<div class="flex flex-col gap-y-2">
 				<div class="flex flex-col gap-y-0.5">
 					<h1 class="ubuntu-mono-bold text-lg underline">{name}</h1>

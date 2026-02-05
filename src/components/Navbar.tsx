@@ -7,10 +7,6 @@ export default function Navbar() {
 			path: '/',
 		},
 		{
-			name: 'Experience',
-			path: '/experience',
-		},
-		{
 			name: 'Projects',
 			path: '/projects',
 		},
