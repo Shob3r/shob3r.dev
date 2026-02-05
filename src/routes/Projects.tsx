@@ -7,7 +7,7 @@ export default function Projects() {
 			tags: ['Svelte', 'Tauri'],
 			description:
 				'Audio Replacer is an application aimed to streamline audio dubbing projects for video games (i.e. Dub mods), with features that are extremely useful for this task. This was developed for use in a future project of mine',
-			imgLink: '',
+			imgLink: 'https://placehold.co/175x150',
 			projectLink: 'https://github.com/lemons-studios/audio-replacer',
 		},
 		{
@@ -15,7 +15,7 @@ export default function Projects() {
 			tags: ['Preact', 'Tauri', 'Linux', 'WIP'],
 			description:
 				"Yoohoo! is a universal Hoyoverse game launcher for Linux-based platforms, aiming to both unify and replace the launchers created by an-anime-team. Currently WIP. I will be distributing Yoohoo on Flathub when it's ready",
-			imgLink: '',
+			imgLink: 'https://placehold.co/175x150',
 			projectLink: 'https://github.com/Shob3r/yoohoo',
 		},
 		{
@@ -23,7 +23,7 @@ export default function Projects() {
 			tags: ['HTML', 'CSS', 'JS'],
 			description:
 				'Project for a computer science class. A (rather crude) remake of Flappy bird with vanilla HTML/CSS/JavaScript',
-			imgLink: '',
+			imgLink: 'https://placehold.co/175x150',
 			projectLink: 'https://github.com/Shob3r/soaring-avians',
 		},
 		{
@@ -31,7 +31,7 @@ export default function Projects() {
 			tags: ['React', 'Game', 'WIP'],
 			description:
 				'Adrift in Teyvat is a (very) WIP game adapting the Geoguessr formula to open-world game "Genshin Impact"',
-			imgLink: '',
+			imgLink: 'https://placehold.co/175x150',
 			projectLink: 'https://github.com/adrift-in-teyvat/',
 		},
 		{
@@ -39,7 +39,7 @@ export default function Projects() {
 			tags: ['Preact', 'Web'],
 			description:
 				'The website you are on right now! I took the time to develop this as a side project whilst developing yoohoo, since the package name that I want for it on Flathub requires me to control this domain',
-			imgLink: '',
+			imgLink: 'https://placehold.co/175x150',
 			projectLink: 'https://github.com/Shob3r/shob3r.dev',
 		},
 	];

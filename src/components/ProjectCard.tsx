@@ -71,7 +71,7 @@ export default function ProjectCard({
 
 	return (
 		<div
-			class="w-9/10 h-50 flex shrink-0 cursor-pointer flex-row gap-x-5 rounded-sm border border-gray-600 bg-transparent p-2"
+			class="h-9/10 md:w-9/10 md:h-50 flex w-auto shrink-0 cursor-pointer flex-col items-center justify-center gap-x-5 rounded-sm border border-gray-600 bg-transparent p-2 md:flex-row md:gap-y-5"
 			onClick={() => window.open(projectLink, '_blank')}
 		>
 			<img class="rounded-2xl" src={imgLink} width={250} height={200}></img>
