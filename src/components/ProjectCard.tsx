@@ -71,7 +71,7 @@ export default function ProjectCard({
 
 	return (
 		<div
-			class="h-9/10 md:w-9/10 md:h-50 flex w-auto shrink-0 cursor-pointer flex-col items-center justify-center gap-x-5 rounded-sm border border-gray-600 bg-transparent p-2 md:flex-row md:gap-y-5"
+			class="h-9/10 md:w-9/10 md:h-50 flex w-auto shrink-0 cursor-pointer flex-col items-center justify-center gap-x-5 rounded-sm border border-gray-600 bg-transparent p-3 md:flex-row md:gap-y-5"
 			onClick={() => window.open(projectLink, '_blank')}
 		>
 			<img class="rounded-2xl" src={imgLink} width={250} height={200}></img>
@@ -82,7 +82,7 @@ export default function ProjectCard({
 					<div class="flex flex-row gap-x-2">
 						{tags.map((name) => {
 							return (
-								<div class="border-surface-1 bg-accent min-w-20 flex flex-row items-center justify-center gap-x-2 rounded-sm border px-1 py-0.5 text-center">
+								<div class="border-surface-1 bg-accent min-w-20 flex flex-row items-center justify-center gap-x-2 rounded-sm border px-1.5 py-0.5 text-center">
 									<span class="h-5 w-5">{TagIcon({ tag: name })}</span>
 									<p class="invert-100 mt-0.5">{name}</p>
 								</div>

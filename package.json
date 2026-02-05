@@ -13,9 +13,10 @@
 		"@tailwindcss/vite": "^4.1.18",
 		"lucide-preact": "^0.563.0",
 		"preact": "^10.28.3",
+		"preact-iso": "^2.11.1",
+		"preact-render-to-string": "^6.6.5",
 		"simple-icons": "^16.7.0",
-		"tailwindcss": "^4.1.18",
-		"wouter-preact": "^3.9.0"
+		"tailwindcss": "^4.1.18"
 	},
 	"devDependencies": {
 		"@preact/preset-vite": "^2.10.3",
