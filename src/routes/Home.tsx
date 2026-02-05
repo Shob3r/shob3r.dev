@@ -1,4 +1,4 @@
-import { MapPin } from 'lucide-preact';
+import { GraduationCap, MapPin } from 'lucide-preact';
 import {
 	siDiscord,
 	siDotnet,
@@ -25,7 +25,7 @@ export default function Home() {
 		},
 		{
 			icon: siGithub,
-			link: 'https://github.com/Shob3r'
+			link: 'https://github.com/Shob3r',
 		},
 		{
 			icon: siGmail,
@@ -90,9 +90,15 @@ export default function Home() {
 	return (
 		<div class="flex flex-col h-full w-full justify-center items-center">
 			<h1 class="text-6xl">Shob3r</h1>
-			<div class="flex flex-row gap-x-1.5">
-				<MapPin /> <p>Vancouver, Canada (UTC-8)</p>
+			<div class="flex flex-col w-full justify-center items-center">
+				<div class="flex flex-row gap-x-1.5">
+					<MapPin /> <p>Vancouver, Canada (UTC-8)</p>
+				</div>
+				<div class="flex flex-row gap-x-1.5">
+					<GraduationCap /> <p>Langara College</p>
+				</div>
 			</div>
+
 			<div class="flex flex-col gap-y-1.5 mt-5 text-center text-3xl">
 				<h3>Languages</h3>
 				<div class="flex flex-row justify-center gap-x-3">
@@ -172,6 +178,7 @@ export default function Home() {
 					);
 				})}
 			</div>
+
 		</div>
 	);
 }
