@@ -14,12 +14,7 @@ import {
 	type SimpleIcon,
 } from 'simple-icons';
 
-import {
-	Construction,
-	Gamepad2,
-	Globe,
-	type LucideIcon,
-} from 'lucide-preact';
+import { Construction, Gamepad2, Globe, type LucideIcon } from 'lucide-preact';
 
 export default function ProjectCard({
 	name,
@@ -74,7 +69,7 @@ export default function ProjectCard({
 			onClick={() => window.open(projectLink, '_blank')}
 		>
 			<img
-				class="rounded-2xl shrink-0 w-37.5"
+				class="rounded-2xl shrink-0 w-37.5 h-37.5"
 				src={imgLink}
 				width={250}
 				height={200}
