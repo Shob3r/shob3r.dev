@@ -11,6 +11,8 @@ import {
 	siTauri,
 	siTypescript,
 	siUnity,
+	siCloudflareworkers,
+	siBun,
 	type SimpleIcon,
 } from 'simple-icons';
 
@@ -45,6 +47,8 @@ export default function ProjectCard({
 		wip: Construction,
 		game: Gamepad2,
 		web: Globe,
+		workers: siCloudflareworkers,
+		bun: siBun,
 	};
 
 	const TagIcon = ({ tag }: { tag: string }) => {
@@ -65,7 +69,7 @@ export default function ProjectCard({
 
 	return (
 		<div
-			class="h-9/10 md:w-9/10 md:h-50 flex w-auto shrink-0 cursor-pointer items-center-safe flex-col gap-x-5 rounded-sm border border-gray-600 bg-transparent p-3 md:flex-row md:gap-y-5"
+			class="h-9/10 md:w-9/10 md:h-50 flex w-auto shrink-0 cursor-pointer items-center-safe flex-col gap-x-5 rounded-sm border border-gray-600 bg-transparent p-3 md:flex-row md:gap-y-5 hover:border-accent transition-all duration-275"
 			onClick={() => window.open(projectLink, '_blank')}
 		>
 			<img

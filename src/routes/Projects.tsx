@@ -21,6 +21,13 @@ export default function Projects() {
 			projectLink: 'https://github.com/Shob3r/yoohoo',
 		},
 		{
+			name: 'Sophon Assembler',
+			tags: ['Bun', 'ElysiaJS', 'Workers', 'Web'], // Theres no ElysiaJS icon in Simple Icons yet. There are a few PRs though
+			description: 'Sophon Assembler is a sub-project for yoohoo. It serves as an API endpoint that de-obfuscates the Sophon chunk downloading system created by HoYoVerse used to download their games.',
+			imgLink: 'https://placehold.co/150x150',
+			projectLink: 'https://github.com/Shob3r/sophon-assembler'
+		},
+		{
 			name: 'Soaring Avians',
 			tags: ['HTML', 'CSS', 'JS'],
 			description:
