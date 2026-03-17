@@ -89,7 +89,8 @@ export default function Home() {
 
 	return (
 		<div class="flex flex-col h-full w-full justify-center items-center">
-			<h1 class="text-6xl">Shob3r</h1>
+			<h1 class="text-6xl">Andrew Pinter</h1>
+			<h2 class="text-4xl mb-2">(Shob3r)</h2>
 			<div class="flex flex-col w-full justify-center items-center">
 				<div class="flex flex-row gap-x-1.5">
 					<MapPin /> <p>Vancouver, Canada (UTC-8)</p>
@@ -100,7 +101,7 @@ export default function Home() {
 			</div>
 
 			<div class="flex flex-col gap-y-1.5 mt-5 text-center text-3xl">
-				<h3>Languages</h3>
+				<h2 class="mb-2">Languages</h2>
 				<div class="flex flex-row justify-center gap-x-3">
 					<img
 						class="cursor-pointer"
@@ -113,6 +114,7 @@ export default function Home() {
 						src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_C_sharp.svg"
 						height={24}
 						width={24}
+						alt="C# logo"
 					/>
 					{languages.map((lang) => {
 						return (
@@ -131,7 +133,7 @@ export default function Home() {
 					})}
 				</div>
 
-				<h3>Frameworks</h3>
+				<h2 class="mb-2">Frameworks</h2>
 				<div class="flex flex-row justify-center gap-x-3">
 					{frameworks.map((framework) => {
 						return (
@@ -156,11 +158,12 @@ export default function Home() {
 						src="https://upload.wikimedia.org/wikipedia/commons/8/8e/WinUI.svg"
 						width={24}
 						height={24}
+						alt="WinUI3 Logo"
 					/>
 				</div>
 			</div>
 
-			<h3 class="text-4xl mt-5">Socials</h3>
+			<h2 class="text-4xl my-2">Socials</h2>
 			<div class="flex flex-row gap-x-3">
 				{socials.map((social) => {
 					return (
