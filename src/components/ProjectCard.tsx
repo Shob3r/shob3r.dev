@@ -23,12 +23,14 @@ export default function ProjectCard({
 	tags,
 	description,
 	imgLink,
+	imgAlt,
 	projectLink,
 }: {
 	name: string;
 	tags: string[];
 	description: any;
 	imgLink: string;
+	imgAlt: string;
 	projectLink: string;
 }) {
 	const iconMap: Record<string, LucideIcon | SimpleIcon> = {
@@ -75,6 +77,7 @@ export default function ProjectCard({
 			<img
 				class="rounded-2xl shrink-0 w-37.5 h-37.5"
 				src={imgLink}
+				alt={imgAlt}
 				width={250}
 				height={200}
 			></img>

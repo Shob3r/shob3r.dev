@@ -9,6 +9,7 @@ export default function Projects() {
 				'Audio Replacer is an application aimed to streamline audio dubbing projects for video games (i.e. Dub mods), with features that are extremely useful for this task. This was developed for use in a future project of mine',
 			imgLink:
 				'https://raw.githubusercontent.com/lemons-studios/audio-replacer/refs/heads/main/app-icon.png',
+			imgAlt: 'Logo for Audio Replacer',
 			projectLink: 'https://github.com/lemons-studios/audio-replacer',
 		},
 		{
@@ -18,14 +19,17 @@ export default function Projects() {
 				"Yoohoo! is a universal Hoyoverse game launcher for Linux-based platforms, aiming to both unify and replace the launchers created by an-anime-team. Currently WIP. I will be distributing Yoohoo on Flathub when it's ready",
 			imgLink:
 				'https://raw.githubusercontent.com/Shob3r/yoohoo/refs/heads/main/app-icon.png',
+			imgAlt: 'Logo for Yoohoo',
 			projectLink: 'https://github.com/Shob3r/yoohoo',
 		},
 		{
 			name: 'Sophon Assembler',
 			tags: ['Bun', 'ElysiaJS', 'Workers', 'Web'], // Theres no ElysiaJS icon in Simple Icons yet. There are a few PRs though
-			description: 'Sophon Assembler is a sub-project for yoohoo. It serves as an API endpoint that de-obfuscates the Sophon chunk downloading system created by HoYoVerse used to download their games.',
+			description:
+				'Sophon Assembler is a sub-project for yoohoo. It serves as an API endpoint that de-obfuscates the Sophon chunk downloading system created by HoYoVerse used to download their games.',
 			imgLink: 'https://placehold.co/150x150',
-			projectLink: 'https://github.com/Shob3r/sophon-assembler'
+			imgAlt: 'Placeholder image for the Sophon Assembler Logo',
+			projectLink: 'https://github.com/Shob3r/sophon-assembler',
 		},
 		{
 			name: 'Soaring Avians',
@@ -34,6 +38,7 @@ export default function Projects() {
 				'Project for a computer science class. A (rather crude) remake of Flappy bird with vanilla HTML/CSS/JavaScript',
 			imgLink:
 				'https://raw.githubusercontent.com/Shob3r/soaring-avians/refs/heads/master/img/repoScreenshot.png',
+			imgAlt: 'Logo for Soaring Avians',
 			projectLink: 'https://github.com/Shob3r/soaring-avians',
 		},
 		{
@@ -42,6 +47,7 @@ export default function Projects() {
 			description:
 				'Adrift in Teyvat is a (very) WIP game adapting the Geoguessr formula to open-world game "Genshin Impact"',
 			imgLink: 'https://placehold.co/150x150',
+			imgAlt: 'Placeholder image for the Adrift in Teyvat logo',
 			projectLink: 'https://github.com/adrift-in-teyvat/',
 		},
 		{
@@ -51,6 +57,7 @@ export default function Projects() {
 				'The website you are on right now! I took the time to develop this as a side project whilst developing yoohoo, since the package name that I want for it on Flathub requires me to control this domain',
 			imgLink:
 				'https://raw.githubusercontent.com/Shob3r/shob3r.dev/refs/heads/main/public/favicon.jpg',
+			imgAlt: 'Logo for shob3r.dev',
 			projectLink: 'https://github.com/Shob3r/shob3r.dev',
 		},
 	];
@@ -67,6 +74,7 @@ export default function Projects() {
 							tags={project.tags}
 							description={project.description}
 							imgLink={project.imgLink}
+							imgAlt={project.imgAlt}
 							projectLink={project.projectLink}
 						/>
 					);
