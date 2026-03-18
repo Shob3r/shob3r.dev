@@ -17,6 +17,41 @@ import {
 } from 'simple-icons';
 
 import { Construction, Gamepad2, Globe, type LucideIcon } from 'lucide-preact';
+const iconMap: Record<string, LucideIcon | SimpleIcon> = {
+	react: siReact,
+	preact: siPreact,
+	svelte: siSvelte,
+	tauri: siTauri,
+	nodejs: siNodedotjs,
+	linux: siLinux,
+	html: siHtml5,
+	css: siCss,
+	js: siJavascript,
+	ts: siTypescript,
+	dotnet: siDotnet,
+	unity: siUnity,
+	wip: Construction,
+	game: Gamepad2,
+	web: Globe,
+	workers: siCloudflareworkers,
+	bun: siBun,
+};
+
+const TagIcon = ({ tag }: { tag: string }) => {
+	const icon = iconMap[tag.toLowerCase().trim()];
+	if (!icon) return null;
+
+	// Lucide icons are functions, since they are components
+	if (typeof icon === 'function') {
+		const Icon = icon;
+		return <Icon size={20} stroke="black" />;
+	}
+	return (
+		<svg viewBox="0 0 24 24" width={20} height={20} fill="black" aria-hidden>
+			<path d={(icon as SimpleIcon).path} />
+		</svg>
+	);
+};
 
 export default function ProjectCard({
 	name,
@@ -33,42 +68,6 @@ export default function ProjectCard({
 	imgAlt: string;
 	projectLink: string;
 }) {
-	const iconMap: Record<string, LucideIcon | SimpleIcon> = {
-		react: siReact,
-		preact: siPreact,
-		svelte: siSvelte,
-		tauri: siTauri,
-		nodejs: siNodedotjs,
-		linux: siLinux,
-		html: siHtml5,
-		css: siCss,
-		js: siJavascript,
-		ts: siTypescript,
-		dotnet: siDotnet,
-		unity: siUnity,
-		wip: Construction,
-		game: Gamepad2,
-		web: Globe,
-		workers: siCloudflareworkers,
-		bun: siBun,
-	};
-
-	const TagIcon = ({ tag }: { tag: string }) => {
-		const icon = iconMap[tag.toLowerCase().trim()];
-		if (!icon) return null;
-
-		// Lucide icons are functions, since they are components
-		if (typeof icon === 'function') {
-			const Icon = icon;
-			return <Icon size={20} stroke="black" />;
-		}
-		return (
-			<svg viewBox="0 0 24 24" width={20} height={20} fill="black" aria-hidden>
-				<path d={(icon as SimpleIcon).path} />
-			</svg>
-		);
-	};
-
 	return (
 		<div
 			class="h-9/10 md:w-9/10 md:h-50 flex w-auto shrink-0 cursor-pointer items-center-safe flex-col gap-x-5 rounded-sm border border-gray-600 bg-transparent p-3 md:flex-row md:gap-y-5 hover:border-accent transition-all duration-275"

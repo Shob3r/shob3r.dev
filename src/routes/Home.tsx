@@ -17,76 +17,76 @@ import {
 	siUnity,
 } from 'simple-icons';
 
+const socials = [
+	{
+		icon: siDiscord,
+		link: 'https://discordapp.com/users/539958184597520405',
+	},
+	{
+		icon: siGithub,
+		link: 'https://github.com/Shob3r',
+	},
+	{
+		icon: siGmail,
+		link: 'mailto:andrewpinter23@gmail.com',
+	},
+] as const;
+
+const languages = [
+	{
+		icon: siOpenjdk,
+		link: 'https://openjdk.org',
+	},
+	{
+		icon: siTypescript,
+		link: 'https://typescriptlang.org',
+	},
+	{
+		icon: siJavascript,
+		link: 'https://developer.mozilla.org/docs/Web/JavaScript',
+	},
+	{
+		icon: siGnubash,
+		link: 'https://www.gnu.org/software/bash/',
+	},
+	{
+		icon: siRust,
+		link: 'https://rust-lang.org',
+	},
+];
+
+const frameworks = [
+	{
+		icon: siDotnet,
+		link: 'https://dot.net',
+	},
+	{
+		icon: siNodedotjs,
+		link: 'https://nodejs.org',
+	},
+	{
+		icon: siTauri,
+		link: 'https://tauri.app',
+	},
+	{
+		icon: siSvelte,
+		link: 'https://svelte.dev',
+	},
+	{
+		icon: siPreact,
+		link: 'https://preactjs.com',
+	},
+	{
+		icon: siTailwindcss,
+		link: 'https://tailwindcss.com',
+	},
+	{
+		icon: siUnity,
+		link: 'https://unity.com',
+	},
+];
+
 export default function Home() {
-	const socials = [
-		{
-			icon: siDiscord,
-			link: 'https://discordapp.com/users/539958184597520405',
-		},
-		{
-			icon: siGithub,
-			link: 'https://github.com/Shob3r',
-		},
-		{
-			icon: siGmail,
-			link: 'mailto:andrewpinter23@gmail.com',
-		},
-	] as const;
-
-	const languages = [
-		{
-			icon: siOpenjdk,
-			link: 'https://openjdk.org',
-		},
-		{
-			icon: siTypescript,
-			link: 'https://typescriptlang.org',
-		},
-		{
-			icon: siJavascript,
-			link: 'https://developer.mozilla.org/docs/Web/JavaScript',
-		},
-		{
-			icon: siGnubash,
-			link: 'https://www.gnu.org/software/bash/',
-		},
-		{
-			icon: siRust,
-			link: 'https://rust-lang.org',
-		},
-	];
-
-	const frameworks = [
-		{
-			icon: siDotnet,
-			link: 'https://dot.net',
-		},
-		{
-			icon: siNodedotjs,
-			link: 'https://nodejs.org',
-		},
-		{
-			icon: siTauri,
-			link: 'https://tauri.app',
-		},
-		{
-			icon: siSvelte,
-			link: 'https://svelte.dev',
-		},
-		{
-			icon: siPreact,
-			link: 'https://preactjs.com',
-		},
-		{
-			icon: siTailwindcss,
-			link: 'https://tailwindcss.com',
-		},
-		{
-			icon: siUnity,
-			link: 'https://unity.com',
-		},
-	];
-
 	return (
 		<div class="flex flex-col h-full w-full justify-center items-center">
 			<h1 class="text-6xl">Andrew Pinter</h1>
@@ -181,7 +181,6 @@ export default function Home() {
 					);
 				})}
 			</div>
-
 		</div>
 	);
 }
