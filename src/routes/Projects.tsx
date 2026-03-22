@@ -13,23 +13,23 @@ export default function Projects() {
 			projectLink: 'https://github.com/lemons-studios/audio-replacer',
 		},
 		{
-			name: 'Yoohoo!',
+			name: 'Elysiae',
 			tags: ['Preact', 'Tauri', 'Linux', 'WIP'],
 			description:
-				"Yoohoo! is a universal Hoyoverse game launcher for Linux-based platforms, aiming to both unify and replace the launchers created by an-anime-team. Currently WIP. I will be distributing Yoohoo on Flathub when it's ready",
+				"Elysiae is a universal Hoyoverse game launcher for Linux-based platforms, aiming to both unify and replace the launchers created by an-anime-team. Currently WIP. I will be distributing Elysiae on Flathub when it's ready",
 			imgLink:
-				'https://raw.githubusercontent.com/Shob3r/yoohoo/refs/heads/main/app-icon.png',
-			imgAlt: 'Logo for Yoohoo',
-			projectLink: 'https://github.com/Shob3r/yoohoo',
+				'https://raw.githubusercontent.com/elysiae-project/elysiae/refs/heads/main/app-icon.png',
+			imgAlt: 'Logo for Elysiae',
+			projectLink: 'https://github.com/elysiae-project/elysiae',
 		},
 		{
 			name: 'Sophon Assembler',
 			tags: ['Bun', 'ElysiaJS', 'Workers', 'Web'], // Theres no ElysiaJS icon in Simple Icons yet. There are a few PRs though
 			description:
-				'Sophon Assembler is a sub-project for yoohoo. It serves as an API endpoint that de-obfuscates the Sophon chunk downloading system created by HoYoVerse used to download their games.',
+				'Sophon Assembler is a sub-project for Elysiae. It was created so I could learn how the Sophon chunk downloading system created by HoYoVerse works.',
 			imgLink: 'https://placehold.co/150x150',
 			imgAlt: 'Placeholder image for the Sophon Assembler Logo',
-			projectLink: 'https://github.com/Shob3r/sophon-assembler',
+			projectLink: 'https://github.com/elysiae-project/sophon-assembler',
 		},
 		{
 			name: 'Soaring Avians',
@@ -54,7 +54,7 @@ export default function Projects() {
 			name: 'shob3r.dev',
 			tags: ['Preact', 'Web'],
 			description:
-				'The website you are on right now! I took the time to develop this as a side project whilst developing yoohoo, since the package name that I want for it on Flathub requires me to control this domain',
+				'The website you are on right now! I took the time to develop this as a side project whilst developing Elysiae, since the package name that I want for it on Flathub requires me to control this domain',
 			imgLink:
 				'https://raw.githubusercontent.com/Shob3r/shob3r.dev/refs/heads/main/public/favicon.jpg',
 			imgAlt: 'Logo for shob3r.dev',
