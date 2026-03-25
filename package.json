@@ -10,19 +10,19 @@
 	},
 	"dependencies": {
 		"@tailwindcss/typography": "^0.5.19",
-		"@tailwindcss/vite": "^4.2.1",
-		"lucide-preact": "^0.577.0",
+		"@tailwindcss/vite": "^4.2.2",
+		"lucide-preact": "^1.7.0",
 		"preact": "^10.29.0",
 		"preact-iso": "^2.11.1",
 		"preact-render-to-string": "^6.6.6",
-		"simple-icons": "^16.12.0",
-		"tailwindcss": "^4.2.1"
+		"simple-icons": "^16.13.0",
+		"tailwindcss": "^4.2.2"
 	},
 	"devDependencies": {
-		"@preact/preset-vite": "^2.10.4",
+		"@preact/preset-vite": "^2.10.5",
 		"@types/node": "^25.5.0",
-		"typescript": "~5.9.3",
-		"vite": "^8.0.0"
+		"typescript": "^6.0.2",
+		"vite": "^8.0.2"
 	},
-	"packageManager": "yarn@4.12.0"
+	"packageManager": "yarn@4.13.0"
 }
